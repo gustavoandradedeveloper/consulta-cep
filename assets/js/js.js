@@ -26,7 +26,5 @@ function consultar(cep){
             document.getElementById('uf').value = uf ;
     } 
 }
-
-objXmlHttpRequest.send();
-
+    objXmlHttpRequest.send();
 }
